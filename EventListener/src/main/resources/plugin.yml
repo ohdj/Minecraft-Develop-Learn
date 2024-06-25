@@ -1,0 +1,4 @@
+name: EventListener
+version: '${project.version}'
+main: com.ohdj.eventlistener.EventListener
+api-version: '1.20'
