@@ -1,0 +1,10 @@
+ohdj:
+  list:
+    - 1
+    - 2
+    - abc
+  map:
+    - {name: ohdj, count: 1, speed: 3.3f}
+    - {name: ohdj2, count: 2, speed: 2.2f}
+  age: 11
+  disable: false

@@ -1,0 +1,4 @@
+name: Configuration
+version: '${project.version}'
+main: com.ohdj.configuration.Configuration
+api-version: '1.20'
