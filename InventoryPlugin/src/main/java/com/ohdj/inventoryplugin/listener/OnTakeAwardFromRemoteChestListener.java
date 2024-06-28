@@ -35,11 +35,13 @@ public class OnTakeAwardFromRemoteChestListener implements Listener {
                 // 两者是同一对象
                 ItemStack clickerStack = event.getCurrentItem();
                 // 获取stack槽的信息，比对
-                if (clickerStack.getType() == Material.FEATHER &&
-                        clickerStack.getItemMeta().getDisplayName().equals(ChatColor.RED + "阿米诺斯")) {
-                    // 是同一物品，取消当前event
-                    event.setCancelled(true);
-                    player.sendMessage(ChatColor.GREEN + "哈哈哈，放弃吧，你拿不到的");
+                if (clickerStack != null) {
+                    if (clickerStack.getType() == Material.FEATHER &&
+                            clickerStack.getItemMeta().getDisplayName().equals(ChatColor.RED + "阿米诺斯")) {
+                        // 是同一物品，取消当前event
+                        event.setCancelled(true);
+                        player.sendMessage(ChatColor.GREEN + "哈哈哈，放弃吧，你拿不到的");
+                    }
                 }
             }
         }
