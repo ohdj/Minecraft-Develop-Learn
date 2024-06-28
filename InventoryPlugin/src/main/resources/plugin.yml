@@ -1,0 +1,13 @@
+name: InventoryPlugin
+version: '${project.version}'
+main: com.ohdj.inventoryplugin.InventoryPlugin
+api-version: '1.20'
+authors: [ ohdj ]
+description: 测试物品栏
+commands:
+  open:
+    description: 打开一个玩家独有的自定义物品栏
+    usage: /<command>
+  award:
+    description: 给玩家的物品栏添加特殊物品
+    usage: /<command> [player-name]
