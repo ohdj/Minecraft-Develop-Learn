@@ -1,0 +1,9 @@
+name: CustomRecipe
+version: '${project.version}'
+main: com.ohdj.customrecipe.CustomRecipe
+api-version: '1.20'
+author: [ ohdj ]
+description: 自定义物品合成
+commands:
+  villager:
+    description: 生成一只特殊的村民
