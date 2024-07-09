@@ -1,0 +1,8 @@
+name: MenuTutorial
+version: '${project.version}'
+main: com.ohdj.menututorial.MenuTutorial
+api-version: '1.20'
+commands:
+  menu:
+    description: Opens a custom menu
+    usage: /menu
